@@ -3,7 +3,7 @@ import store from '../../store/store';
 import * as dashboardActions from '../../store/actions/dashboardActions';
 import * as webRTCHandler from '../webRTC/webRTCHandler';
 
-const SERVER = 'https://lets-meet-backend-application.herokuapp.com/';
+const SERVER = 'https://lets-meet-backend-application.herokuapp.com';
 
 const broadcastEventTypes = {
   ACTIVE_USERS: 'ACTIVE_USERS'
